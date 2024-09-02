@@ -1,0 +1,101 @@
+nav {
+  box-shadow: 3px 2px 5px 3px lightgrey;
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.body-home{
+  height: 2900px;
+}
+/* .mainbody{
+  background-image: url(https://www.keralatravels.com/uploadpics/89_CGH-Super-Saver.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  margin: 0;
+}
+
+.footer-bottom {
+  font-size: 14px;
+}
+
+.homemain{
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  background-color: rgb(209, 231, 238);
+}
+.carousel{
+  margin-bottom: 30px;
+  padding: 3px;
+}
+.icon{
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+}
+.experience{
+  margin-top: 20px;
+  background-color: rgb(243, 243, 234);
+  height: 990px;
+}
+.explorebtn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 500px;
+  width: 300px;
+  background-color: rgb(31, 69, 183);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.explorebtn a {
+  color: white;
+  text-decoration: none;
+}
+.photos{
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-bottom: 80px;
+  height: 90px;
+  display: flex;
+  gap: 100px;
+}
+.photobtn{
+  margin-bottom: 30px;
+  width: 500px;
+  background-color: rgb(31, 69, 183);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+}
+.photobtn a {
+  color: white;
+  text-decoration: none;
+}
+.card-img-top {
+  transition: all 0.3s ease; 
+}
+
+.card-img-top:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
+}
+

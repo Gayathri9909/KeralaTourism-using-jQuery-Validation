@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles/Contact.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jQuery/jqueryContact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div >
+        <nav>
+            <ul>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Ddrvqsk6iQ879CG7rvUDcy_XQvgQ10b3qcY7NHBmg_dLRZtotVTTyVW-2RmxZPPUXss&usqp=CAU"
+                style="height: 100px; width: 150px"
+              />
+              <h5 style="width: 400px;">KERALA TOURISM <br><i>Welcome to God's Own Country</i></br></h5>
+              <h1 style="margin-left: 40px;font-size: 35px;">Contact us
+              </h1>
+              </ul>
+            </nav>
+       </div>
+       <div class="container">
+          <img src="https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?cs=srgb&dl=pexels-hikaique-775201.jpg&fm=jpg" style="float: left;width: 500px;height: 600px;">
+          <h2>Contact details</h2>
+          <p>Department of Tourism, Government of Kerala,<br>
+            Park View, Thiruvananthapuram,<br>
+            Kerala, India - 695 033<br>
+            Phone: +91 471 2321132, Fax: +91 471 2322279,<br>
+            Toll free No: 1-800-425-4747 (within India only)<br>
+            E-mail: info@keralatourism.org</p>
+       </div>
+       <div>
+        <form id="contactForm" >
+        <label for="firstName" class="firstname"
+        >Name:
+        <span class="required">*</span>
+      </label>
+      <input
+        type="text"
+        id="firstName"
+        class="cinp"
+        placeholder="Enter First Name"
+        required
+      />
+
+      <br>
+      <label for="email" class="email"
+      >Email :
+      <span class="required">*</span>
+    </label>
+    <input
+      type="email"
+      id="email"
+      class="cinp1"
+      placeholder="Enter a valid email address"
+      required
+    />
+    <br />
+    <label for="phoneNumber" class="num"
+    >Phone number: <span class="required">*</span>
+    <input
+      type="text"
+      id="phoneNumber"
+      title="Please enter a 10-digit mobile number"
+      class="cinp2"
+      placeholder="Enter a 10-digit mobile number"
+      required
+    />
+  </label>
+  <br />
+  <label for="message" class="message" >Message:
+   <textarea placeholder="Drop your thoughts here" class="cinp3" id="message"   required></textarea>
+  </label>
+  <div>
+  <button type="submit" class="submit" id="submit">Submit</button>
+</div>
+</form>
+       </div>
+       <footer>
+        <div class="footer-bottom">
+          &copy; 2024 keralatourism.com | All rights reserved
+        </div>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,263 @@
+
+.mainreg{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    font-family: Arial, sans-serif;
+    background-color: lavenderblush;
+    background-image: url("https://www.alleppeyhouseboatclub.com/wp-content/uploads/2017/08/munnar_Image-by-Joseph-Saxan-Pulikkottil-Rappai-from-Pixabay-819x546.jpg"); 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+.form-row7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    /* gap: 110px; */
+}
+
+.form-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    /* gap: 10px; */
+}
+.form-row2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.form-row4{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    /* gap: 22px; */
+    justify-content: space-between;
+}
+.form-row5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    /* gap: 5px; */
+}
+.name {
+    color: #333;
+}
+.name2{
+    color: #333;
+}
+.name3{
+    margin-left: 115px;
+}
+.name4{
+    margin-left: 70px;
+}
+.name5{
+    margin-left: 34px;
+}
+.name7{
+    margin-left: 28px;
+}
+
+.rinp {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 10px;
+    width: 230px;
+}
+
+.rinp:first-of-type {
+    margin-left: 0;
+}
+.rinp1{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    width: 338px;
+    margin-left: 5px;
+}
+.rinp2{
+    margin-left: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    width: 339px;
+}
+.rinp3{
+    padding: 10px;
+    flex: 1;
+    margin-left: 25px;
+   
+}
+.rinp4{
+    width: 330px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-left:25px;
+    align-items: flex-end;
+}
+.rinp5{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 53px;
+    width: 280px;
+}
+.rinp10{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.rinp6{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 70px;
+}
+.rinp7{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 25px;
+}
+
+ .rinp8{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 335px;
+    margin-bottom: 15px;
+    margin-left: 16px;
+}
+.rinp9{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 335px;
+    margin-bottom: 15px;
+    margin-left: 38px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.radio-group label {
+    margin-right: 10px;
+}
+
+.submit {
+    padding: 10px;
+    background-color: rgb(31, 81, 167);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+.required {
+    color: red;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+
+.footer-bottom {
+    font-size: 14px;
+}
+.inp.invalid {
+    border-color: red;
+}
+
+.name .required.invalid {
+    color: red;
+}
+.rinp1, .rinp2 {
+    transition: all 0.3s ease;
+}
+.enlarged {
+    width: 350px; 
+    padding: 13px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid green; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+}
+.error {
+    color: red;
+  }
+  
+  .error-message {
+    color: red; 
+    margin-top: 5px;
+    font-size: 14px;
+  
+  }
+  /* .bg-image.blurred{
+    filter:blur(10px);
+    transition: filter 0.3s ease;
+  } */

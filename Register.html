@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <script src="Register.js"></script>
+    <title>Register</title>
+</head>
+
+<body>
+
+    <main>
+        <!-- Background Image -->
+        <div class="background"></div>
+
+        <!-- Registration Form -->
+        <div class="register-form">
+            <h1 style="text-align: center;padding: 6px;">Register</h1>
+            <form action="" onsubmit="validateForm(event)">
+                <div class="form-field">
+                    <label for="first-name" class="form-label">First name:</label>
+                    <input class="form-control" type="text" name="first-name" id="first-name" placeholder="Enter First Name">
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="last-name" class="form-label">Last name:</label>
+                    <input class="form-control" type="text" name="last-name" id="last-name" placeholder="Enter last name">
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+            
+                <div class="form-field">
+                    <span class="form-label">Gender:</span>
+                    <div class="gender-fields">
+                        <div class="gender male">
+                            <input type="radio" name="gender" id="male" value="male" checked>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="gender female">
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="gender other">
+                            <input type="radio" name="gender" id="other" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="email" class="form-label">Email:</label>
+                    <input class="form-control" type="text" name="email" id="email" placeholder="Enter a valid email address">
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="phoneNumber" class="form-label">Phone number:</label>
+                    <input class="form-control" type="number" name="phonenumber" id="phonenumber" placeholder="Enter a valid phone number">
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="password" class="form-label">Password:</label>
+                    <input class="form-control" type="password" name="password" id="password"
+                        placeholder="Must have 8 characters">
+                    <div class="view-hide">
+                        <button type="button" onclick="changePwdView()" class="view-hide-btn" id="view-hide-btn"><i class="fa-regular fa-eye"></i></button>
+                    </div>
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="confirm-password" class="form-label">Confirm password:</label>
+                    <input class="form-control" type="password" name="confirm-password" id="confirm-password"
+                        placeholder="Confirm your password">
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+               
+                <div class="form-field">
+                    <label for="state" class="form-label">State:</label>
+                    <select name="state" id="state" class="form-field">
+                        <option value="">Select your state</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Tamil Nadu">Tamil nadu</option>
+                    </select>
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="district" class="form-label">District:</label>
+                    <select name="district" id="district" class="form-field">
+                    </select>
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="address" class="form-label">Address:</label>
+                    <textarea class="form-control" name="address" id="address" rows="4"
+                        placeholder="Your address with pin code"></textarea>
+                    <div class="error-field">
+                        <p class="error-msg"></p>
+                    </div>
+                </div>
+                <div class="form-field register">
+                    <button type="submit" id="register-btn">Register</button>
+                </div>
+            </form>
+            <div class="login-link">
+                Already have an account? <a href="login.html">Login</a>
+            </div>
+        </div>
+    </main>
+   
+</body>
+
+</html>

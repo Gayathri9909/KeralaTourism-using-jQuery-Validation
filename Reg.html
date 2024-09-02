@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="Styles/Reg.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jQuery/jQueryReg.js"></script>    
+  </head>
+
+  <body class="mainreg">
+    <h1 style="text-align: center; margin-top: 30px;color:white;">REGISTER</h1>
+
+    <div class="container">
+      <div class="box">
+        <form id="registrationForm" >
+          <div class="form-row">
+            <label for="firstName" class="name"
+              >First Name:
+              <span class="required">*</span>
+            </label>
+            <input
+              type="text"
+              id="firstName"
+              class="rinp"
+              placeholder="Enter First Name"
+              required
+            />
+
+            <label for="lastName" class="name">Last Name:</label>
+            <input
+              type="text"
+              id="lastName"
+              class="rinp"
+              placeholder="Enter Last Name"
+            />
+          </div>
+
+          <div class="form-row7">
+            <label for="dob" class="name1"
+              >Date of Birth: <span class="required">*</span>
+              <input
+                type="date"
+                id="dob"
+                class="rinp1"
+                required
+                max="2006-12-31"
+              />
+            </label>
+            <label for="age" class="name2"
+              >Age: <span class="required">*</span>
+              <input type="number" id="age" class="rinp2" required />
+            </label>
+          </div>
+
+          <div class="form-row1">
+            <p class="name">
+              Gender: <span class="required">*</span>
+              <label class="rinp3">
+                <input type="radio" name="gender" value="male" required /> Male
+              </label>
+              <label>
+                <input type="radio" name="gender" value="female" required />
+                Female
+              </label>
+              <label>
+                <input type="radio" name="gender" value="other" required />
+                Others
+              </label>
+            </p>
+            <label for="phoneNumber" class="name3"
+              >Phone Number: <span class="required">*</span>
+              <input
+                type="number"
+                id="phoneNumber"
+                title="Please enter a 10-digit mobile number"
+                class="rinp4"
+                placeholder="Enter a 10-digit mobile number"
+                required
+              />
+            </label>
+            <br />
+          </div>
+
+          <div class="form-row2">
+            <label for="email" class="name"
+              >Email :
+              <span class="required">*</span>
+            </label>
+            <input
+              type="email"
+              id="email"
+              class="rinp5"
+              placeholder="Enter a valid email address"
+              required
+            />
+            <br />
+            <label for="state" class="name4"
+              >State: <span class="required">*</span></label
+            >
+            <select id="state" name="state" class="rinp10" required>
+              <option value="">Select your State</option>
+              <option value="kerala">Kerala</option>
+              <option value="tamilnadu">Tamil Nadu</option>
+              <option value="karnataka">Karnataka</option>
+              <option value="maharashtra">Maharashtra</option>
+              <option value="uttarpradesh">Uttar Pradesh</option>
+              <option value="other">Others</option>
+            </select>
+            <br />
+          </div>
+          <div class="form-row4">
+            <label for="city" class="name">
+              City: <span class="required">*</span>
+            </label>
+            <select id="city" class="rinp6" required>
+              <option value="">Select your City</option>
+            </select>
+
+            <label for="zip" class="name5"
+              >ZIP Code: <span class="required">*</span></label
+            >
+            <input
+              type="text"
+              id="zip"
+              class="rinp7"
+              placeholder="Enter ZIP Code"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-row5">
+            <label for="password" class="name"
+            >Password: <span class="required">*</span></label
+          >
+          <input
+            type="password"
+            id="password"
+            class="rinp8"
+            placeholder="Enter password"
+            required
+          />
+          <br />
+
+          <label for="confirmPassword" class="name7">Confirm:</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            class="rinp9"
+            placeholder="Retype password"
+            required
+          />
+          <br />
+          </div>
+          <button type="submit" class="submit">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-bottom">
+        &copy; 2024 myWebsite.com | All rights reserved
+      </div>
+    </footer>
+  </body>
+</html>

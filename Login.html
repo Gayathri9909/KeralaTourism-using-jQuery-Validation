@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Styles/Login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jQuery/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="bg-image">
+    <h1 style="font-family: sans-serif;margin-left: 650px;margin-top: 40px;color: white;">LOGIN PAGE</h1>
+    <br></br>
+
+    <div class="container">
+        <div class="box">
+            <form id="loginForm" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Ddrvqsk6iQ879CG7rvUDcy_XQvgQ10b3qcY7NHBmg_dLRZtotVTTyVW-2RmxZPPUXss&usqp=CAU"style="float: left;width: 200px;height: 200px;">
+                <label for="email" class="name">Enter email address:
+                    <span class="required">*</span>
+                </label>
+                <input type="text" size="35" class="inp1" id="email" placeholder="Enter a valid email address" required/>
+                <br><br>
+            
+                <label for="password" class="name">Enter Password:<span class="required">*</span></label>
+                <input type="password" size="35" class="inp2" id="password" placeholder="Enter password" required />
+                <br><br>
+
+                <div>
+                    <h3 style="margin-left: 250px;">New User? Create an account</h3>
+                    <a href="/Reg.html" style="margin-left: 310px;">Register here</a>
+                </div>
+                <button type="submit" class="submit"><a href="Home.html">Login</a></button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-bottom">
+            &copy; 2024 myWebsite.com |  All rights reserved
+        </div>
+    </footer>
+</body>
+</html>

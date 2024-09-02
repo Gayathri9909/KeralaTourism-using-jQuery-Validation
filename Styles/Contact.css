@@ -1,0 +1,104 @@
+nav {
+    box-shadow: 3px 2px 5px 3px lightgrey;
+    overflow: hidden;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+  }
+  .firstname,.email,.num,.message{
+    margin-left: 65px;
+    font-size: 20px;
+  }
+  .cinp{
+    margin-left: 70px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .cinp1{
+    margin-left: 65px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .cinp2{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px; border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .cinp3{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 63px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .required{
+    color: red;
+  }
+  .submit {
+    padding: 10px;
+    background-color: #406ebd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+    margin-left: 350px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+.cinp, .cinp1 ,.cinp2,.cinp3{
+  transition: all 0.3s ease;
+}
+.enlarged {
+  width: 350px; 
+  padding: 13px; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 2px solid green; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1; 
+}
+
+.error {
+  color: red;
+}
+
+.error-message {
+  color: red; 
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 710px;
+}
